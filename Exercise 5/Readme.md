@@ -1,3 +1,8 @@
+# Single Page Application (SPA)
+
+## Architecture Overview
+
+```mermaid
 flowchart TD
     A[User navigates to /spa] --> B[Browser GETs spa.html]
     B --> C[Browser GETs main.css]
