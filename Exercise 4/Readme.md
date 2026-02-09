@@ -5,7 +5,7 @@
 ### Note Creation Flow
 
 ```mermaid
-flowchart TD
+flowchart TB
     A["User submits form"] --> B["JS: e.preventDefault() Stop default form behavior"]
     B --> C["Create note object with content & timestamp"]
     C --> D["Send POST to /new_note_spa with JSON data"]
@@ -14,3 +14,18 @@ flowchart TD
     F --> G["JS: Update DOM redrawNotes()"]
     G --> H["JS: Clear form field"]
     H --> I["User sees new note immediately No page reload"]
+
+    F@{ shape: rounded}
+    G@{ shape: rounded}
+    H@{ shape: rounded}
+    I@{ shape: rounded}
+    style A
+fill:#FF6D00,stroke:#00C853
+    style B fill:#00C853
+    style C fill:#00C853
+    style D fill:#00C853
+    style E fill:#00C853
+    style F fill:#00C853
+    style G fill:#00C853
+    style H stroke:#00C853,fill:#00C853
+    style I fill:#FF6D00,stroke:#00C853,color:#000000
