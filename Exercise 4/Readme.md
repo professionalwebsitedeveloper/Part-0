@@ -1,8 +1,4 @@
-# My Project Work
-
-## Part 0
-
-### New Note Flow Creation
+# Part 0
 
 ```mermaid
 flowchart TB
