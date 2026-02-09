@@ -1,8 +1,8 @@
-# My Project
+# My Project Work
 
-## Architecture
+## Part 0
 
-### Note Creation Flow
+### New Note Flow Creation
 
 ```mermaid
 flowchart TB
